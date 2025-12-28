@@ -1,9 +1,8 @@
 package com.jetbrains.kmpapp
 
 import android.app.Application
+import android.content.Context
 import com.jetbrains.kmpapp.di.initKoin
-import com.jetbrains.kmpapp.screens.DetailViewModel
-import com.jetbrains.kmpapp.screens.ListViewModel
 import org.koin.dsl.module
 
 class MuseumApp : Application() {
@@ -12,8 +11,7 @@ class MuseumApp : Application() {
         initKoin(
             listOf(
                 module {
-                    factory { ListViewModel(get()) }
-                    factory { DetailViewModel(get()) }
+                    single<Context> { this@MuseumApp }
                 }
             )
         )

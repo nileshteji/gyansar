@@ -1,6 +1,6 @@
 package com.jetbrains.kmpapp
 
-import com.jetbrains.kmpapp.data.MuseumRepository
+import com.jetbrains.kmpapp.feature.museum.data.MuseumRepository
 import org.koin.core.component.KoinComponent
 import org.koin.core.component.inject
 

@@ -31,6 +31,8 @@ kotlin {
     sourceSets {
         androidMain.dependencies {
             implementation(libs.ktor.client.okhttp)
+            implementation(libs.androidx.room.runtime)
+            implementation(libs.androidx.room.ktx)
         }
         iosMain.dependencies {
             implementation(libs.ktor.client.darwin)
@@ -42,6 +44,9 @@ kotlin {
             implementation(libs.koin.core)
             api(libs.kmp.observable.viewmodel)
         }
+        commonTest.dependencies {
+            implementation(kotlin("test"))
+        }
 
         // Required by KMM-ViewModel
         all {
@@ -49,6 +54,13 @@ kotlin {
             languageSettings.optIn("kotlin.experimental.ExperimentalObjCName")
         }
     }
+    sourceSets.commonTest.dependencies {
+        implementation(kotlin("test"))
+    }
+}
+
+dependencies {
+    add("kspAndroid", libs.androidx.room.compiler)
 }
 
 android {

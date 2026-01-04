@@ -30,3 +30,7 @@ And the following Android-specific dependencies:
 - [Jetpack Compose](https://developer.android.com/jetpack/compose)
 - [Navigation component](https://developer.android.com/jetpack/compose/navigation)
 - [Coil](https://github.com/coil-kt/coil) for image loading
+
+### Component catalog
+
+See [docs/COMPONENT_CATALOG.md](docs/COMPONENT_CATALOG.md) for a quick map of screens, view models, use cases, data sources, and shared UI components used in the student dashboard flow.

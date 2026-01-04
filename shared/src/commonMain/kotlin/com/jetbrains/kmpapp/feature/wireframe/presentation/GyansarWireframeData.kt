@@ -16,6 +16,9 @@ import com.jetbrains.kmpapp.feature.dashboard.presentation.RecentTestState
 import com.jetbrains.kmpapp.feature.dashboard.presentation.StatState
 import com.jetbrains.kmpapp.feature.dashboard.presentation.StudentDashboardState
 import com.jetbrains.kmpapp.feature.dashboard.presentation.TutorDashboardState
+import com.jetbrains.kmpapp.feature.dashboard.presentation.FlashcardCardState
+import com.jetbrains.kmpapp.feature.dashboard.presentation.AiTestFormState
+import com.jetbrains.kmpapp.feature.dashboard.presentation.GamificationState
 import com.jetbrains.kmpapp.feature.quiz.presentation.MetricState
 import com.jetbrains.kmpapp.feature.quiz.presentation.QuizAnalyticsState
 import com.jetbrains.kmpapp.feature.quiz.presentation.QuizQuestionState
@@ -80,27 +83,51 @@ object GyansarWireframeData {
             )
         ),
         studentDashboard = StudentDashboardState(
+            studentId = "GY-1001",
             greeting = "Welcome back, Aarav!",
-            subtext = "Ready to keep your streak alive?",
+            subtext = "Your AI coach lined up a new challenge.",
             initials = "AA",
             stats = listOf(
                 StatState(title = "Day Streak", value = "21"),
-                StatState(title = "Total XP", value = "15,400")
+                StatState(title = "Tests", value = "12"),
+                StatState(title = "Flashcards", value = "48")
             ),
-            practiceLabel = "Today's Practice",
-            practice = PracticeState(
-                title = "You have 15 flashcards to review.",
-                subtitle = "Daily review is ready",
-                cta = ">"
-            ),
-            recentTestsLabel = "Recent Tests",
+            streakLabel = "Active days",
+            streakValue = "21 day streak",
+            recentTestsLabel = "Activity log",
             recentTests = listOf(
-                RecentTestState(subject = "Physics", score = "85%", date = "Aug 14"),
-                RecentTestState(subject = "Chemistry", score = "72%", date = "Aug 12"),
-                RecentTestState(subject = "Maths", score = "91%", date = "Aug 10")
+                RecentTestState(subject = "Physics", score = "85%", date = "Aug 14", title = "EMI Weekly Drill"),
+                RecentTestState(subject = "Chemistry", score = "72%", date = "Aug 12", title = "Organic Speedrun"),
+                RecentTestState(subject = "Maths", score = "91%", date = "Aug 10", title = "Vectors Sprint")
+            ),
+            flashcardLabel = "Flashcards for you",
+            flashcards = listOf(
+                FlashcardCardState(
+                    id = 1,
+                    prompt = "Lenz's Law summary",
+                    topic = "Physics",
+                    mastery = 40,
+                    isStarred = true
+                )
+            ),
+            aiTestForm = AiTestFormState(
+                title = "Smart Physics Mock",
+                subject = "Physics",
+                topics = "EMI, Faraday's Law",
+                questionCount = "15",
+                timeLimitMinutes = "20",
+                smartSelectionEnabled = true,
+                instantFeedbackEnabled = true,
+                submitLabel = "Generate AI Test"
             ),
             navItems = listOf("Home", "Library", "Practice", "Profile"),
-            selectedNavIndex = 0
+            selectedNavIndex = 0,
+            gamification = GamificationState(
+                level = "Level 5",
+                xp = "15,400 XP",
+                badges = listOf("Consistency", "Quick Learner")
+            ),
+            isStudentMissing = false
         ),
         createTest = CreateTestConfigState(
             title = "Create Test",

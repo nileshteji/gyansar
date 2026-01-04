@@ -25,7 +25,9 @@ import com.jetbrains.kmpapp.feature.auth.ui.LoginScreen
 import com.jetbrains.kmpapp.feature.auth.ui.ProfileSelectionScreen
 import com.jetbrains.kmpapp.feature.dashboard.presentation.GyansarStudentDashboardViewModel
 import com.jetbrains.kmpapp.feature.dashboard.presentation.GyansarTutorDashboardViewModel
+import com.jetbrains.kmpapp.feature.dashboard.presentation.StudentIdentityViewModel
 import com.jetbrains.kmpapp.feature.dashboard.ui.StudentDashboardScreen
+import com.jetbrains.kmpapp.feature.dashboard.ui.StudentIdentityScreen
 import com.jetbrains.kmpapp.feature.dashboard.ui.TutorDashboardScreen
 import com.jetbrains.kmpapp.feature.quiz.presentation.GyansarQuizDetailViewModel
 import com.jetbrains.kmpapp.feature.quiz.presentation.GyansarQuizEditorViewModel
@@ -64,8 +66,24 @@ fun App() {
                     composable(GyansarRoutes.ProfileSelection) {
                         ProfileSelectionScreen(
                             state = labels.profileSelection,
-                            onStudentClick = { navController.navigate(GyansarRoutes.StudentDashboard) },
+                            onStudentClick = { navController.navigate(GyansarRoutes.StudentIdentity) },
                             onTutorClick = { navController.navigate(GyansarRoutes.TutorDashboard) }
+                        )
+                    }
+                    composable(GyansarRoutes.StudentIdentity) {
+                        val identityViewModel: StudentIdentityViewModel = koinViewModel()
+                        val state by identityViewModel.state.collectAsStateWithLifecycle()
+                        StudentIdentityScreen(
+                            state = state,
+                            onIdChange = { identityViewModel.updateId(it) },
+                            onNameChange = { identityViewModel.updateName(it) },
+                            onSave = {
+                                identityViewModel.save {
+                                    navController.navigate(GyansarRoutes.StudentDashboard) {
+                                        popUpTo(GyansarRoutes.StudentIdentity) { inclusive = true }
+                                    }
+                                }
+                            }
                         )
                     }
                     composable(GyansarRoutes.StudentDashboard) {
@@ -73,10 +91,20 @@ fun App() {
                         val state by viewModel.state.collectAsStateWithLifecycle()
                         StudentDashboardScreen(
                             state = state,
-                            onCreateTest = { navController.navigate(GyansarRoutes.CreateTest) },
+                            onUpdateTitle = { viewModel.updateTitle(it) },
+                            onUpdateSubject = { viewModel.updateSubject(it) },
+                            onUpdateTopics = { viewModel.updateTopics(it) },
+                            onUpdateQuestionCount = { viewModel.updateQuestionCount(it) },
+                            onUpdateTimeLimit = { viewModel.updateTimeLimit(it) },
+                            onToggleSmartSelection = viewModel::toggleSmartSelection,
+                            onToggleInstantFeedback = viewModel::toggleInstantFeedback,
+                            onCreateAiTest = { studentId -> viewModel.createAiTest(studentId) },
                             onRecentTestClick = { quizId ->
-                                navController.navigate(GyansarRoutes.assessmentRoute(quizId))
-                            }
+                                if (quizId != null) {
+                                    navController.navigate(GyansarRoutes.assessmentRoute(quizId))
+                                }
+                            },
+                            onAddStudent = { navController.navigate(GyansarRoutes.StudentIdentity) }
                         )
                     }
                     composable(GyansarRoutes.CreateTest) {
@@ -227,6 +255,7 @@ fun App() {
 private object GyansarRoutes {
     const val Login = "login"
     const val ProfileSelection = "profile"
+    const val StudentIdentity = "student/id"
     const val StudentDashboard = "student/dashboard"
     const val CreateTest = "student/create-test"
     const val Assessment = "student/assessment/{quizId}"

@@ -9,9 +9,8 @@ on:
 jobs:
   test:
     name: Build
-    runs-on: macOS-latest
+    runs-on: ubuntu-latest
     # Only run build in template repo
-    if: github.event.repository.name == 'KMP-App-Template-Native' && github.repository_owner == 'Kotlin'
     steps:
       - name: Check out code
         uses: actions/checkout@v4

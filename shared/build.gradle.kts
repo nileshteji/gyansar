@@ -6,7 +6,7 @@ plugins {
     alias(libs.plugins.androidLibrary)
     alias(libs.plugins.kotlinxSerialization)
     alias(libs.plugins.ksp)
-    alias(libs.plugins.kmpNativeCoroutines)
+    alias(libs.plugins.skie)
 }
 
 kotlin {

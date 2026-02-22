@@ -3,7 +3,6 @@ package com.jetbrains.kmpapp.feature.assessment.presentation
 import com.jetbrains.kmpapp.feature.quiz.domain.Question
 import com.jetbrains.kmpapp.feature.quiz.domain.QuizWithQuestions
 import com.jetbrains.kmpapp.feature.quiz.domain.usecase.ObserveQuizWithQuestionsUseCase
-import com.rickclephas.kmp.nativecoroutines.NativeCoroutinesState
 import com.rickclephas.kmp.observableviewmodel.ViewModel
 import com.rickclephas.kmp.observableviewmodel.stateIn
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -40,7 +39,6 @@ class GyansarAssessmentViewModel(
         nextLabel = ""
     )
 
-    @NativeCoroutinesState
     val state: StateFlow<AssessmentState> =
         combine(
             quizId.flatMapLatest { id ->

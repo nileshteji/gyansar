@@ -1,7 +1,6 @@
 import Foundation
 import SwiftUI
 import Shared
-import KMPNativeCoroutinesAsync
 import KMPObservableViewModelSwiftUI
 
 struct DetailView: View {
@@ -9,17 +8,22 @@ struct DetailView: View {
     var viewModel = DetailViewModel(
         museumRepository: KoinDependencies().museumRepository
     )
+    
+    @State var museumObject: MuseumObject? = nil
 
     let objectId: Int32
 
     var body: some View {
         VStack {
-            if let obj = viewModel.museumObject {
+            if let obj = museumObject {
                 ObjectDetails(obj: obj)
             }
         }
-        .onAppear {
+        .task {
             viewModel.setId(objectId: objectId)
+            for await obj in viewModel.museumObject {
+                self.museumObject = obj
+            }
         }
     }
 }

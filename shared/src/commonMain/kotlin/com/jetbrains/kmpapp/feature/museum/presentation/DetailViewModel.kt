@@ -4,7 +4,6 @@ import com.jetbrains.kmpapp.feature.museum.data.MuseumObject
 import com.jetbrains.kmpapp.feature.museum.data.MuseumRepository
 import com.rickclephas.kmp.observableviewmodel.ViewModel
 import com.rickclephas.kmp.observableviewmodel.stateIn
-import com.rickclephas.kmp.nativecoroutines.NativeCoroutinesState
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -17,7 +16,6 @@ class DetailViewModel(private val museumRepository: MuseumRepository) : ViewMode
     private val objectId = MutableStateFlow<Int?>(null)
 
     @OptIn(ExperimentalCoroutinesApi::class)
-    @NativeCoroutinesState
     val museumObject: StateFlow<MuseumObject?> = objectId
         .flatMapLatest {
             val id = it ?: return@flatMapLatest flowOf(null)

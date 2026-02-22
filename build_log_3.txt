@@ -1,0 +1,575 @@
+Type-safe project accessors is an incubating feature.
+Configuration 'kotlinCompilerPluginClasspathMetadataCommonMain' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'commonMainResolvableDependenciesMetadata' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'allSourceSetsCompileDependenciesMetadata' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'kotlinCompilerClasspath' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'iosX64CompilationDependenciesMetadata' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'iosSimulatorArm64CompilationDependenciesMetadata' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'iosArm64CompilationDependenciesMetadata' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'debugCompileClasspath' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'debugRuntimeClasspath' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'kotlinCompilerPluginClasspathAndroidDebug' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'androidApis' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'kspDebugKotlinAndroidProcessorClasspath' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'kspPluginClasspath' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'androidJdkImage' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'debugAnnotationProcessorClasspath' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration '_agp_internal_javaPreCompileDebug_kspClasspath' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'lintPublish' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'releaseCompileClasspath' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'releaseRuntimeClasspath' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'kotlinCompilerPluginClasspathAndroidRelease' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'kspReleaseKotlinAndroidProcessorClasspath' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'releaseAnnotationProcessorClasspath' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration '_agp_internal_javaPreCompileRelease_kspClasspath' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'appleMainResolvableDependenciesMetadata' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'kotlinCompilerPluginClasspathMetadataAppleMain' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'nativeMainResolvableDependenciesMetadata' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'kotlinCompilerPluginClasspathMetadataNativeMain' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'iosMainResolvableDependenciesMetadata' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'kotlinCompilerPluginClasspathMetadataIosMain' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'iosArm64CompileKlibraries' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'skieRuntimeForIosArm64CompileKlibraries' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'kotlinCompilerPluginClasspathIosArm64Main' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'iosSimulatorArm64CompileKlibraries' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'skieRuntimeForIosSimulatorArm64CompileKlibraries' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'kotlinCompilerPluginClasspathIosSimulatorArm64Main' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'iosX64CompileKlibraries' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'skieRuntimeForIosX64CompileKlibraries' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'kotlinCompilerPluginClasspathIosX64Main' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'iosArm64TestCompileKlibraries' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'kotlinCompilerPluginClasspathIosArm64Test' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'iosSimulatorArm64TestCompileKlibraries' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'kotlinCompilerPluginClasspathIosSimulatorArm64Test' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'iosX64TestCompileKlibraries' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'kotlinCompilerPluginClasspathIosX64Test' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'iosArm64DebugFrameworkExport' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'skieCompilerPlugin' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'skieSubPlugin' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'iosX64DebugFrameworkExport' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'iosSimulatorArm64DebugFrameworkExport' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'iosArm64ReleaseFrameworkExport' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'iosX64ReleaseFrameworkExport' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'iosSimulatorArm64ReleaseFrameworkExport' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+> Task :shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :shared:transformCommonMainDependenciesMetadata UP-TO-DATE
+> Task :shared:compileCommonMainKotlinMetadata UP-TO-DATE
+> Task :shared:generateProjectStructureMetadata UP-TO-DATE
+> Task :shared:metadataCommonMainProcessResources NO-SOURCE
+> Task :shared:metadataCommonMainClasses UP-TO-DATE
+> Task :shared:allMetadataJar UP-TO-DATE
+> Task :shared:preBuild UP-TO-DATE
+> Task :shared:preDebugBuild UP-TO-DATE
+> Task :shared:mergeDebugJniLibFolders UP-TO-DATE
+> Task :shared:mergeDebugNativeLibs NO-SOURCE
+> Task :shared:stripDebugDebugSymbols NO-SOURCE
+> Task :shared:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :shared:generateDebugResValues UP-TO-DATE
+> Task :shared:generateDebugResources UP-TO-DATE
+> Task :shared:packageDebugResources UP-TO-DATE
+> Task :shared:parseDebugLocalResources UP-TO-DATE
+> Task :shared:generateDebugRFile UP-TO-DATE
+> Task :shared:kspDebugKotlinAndroid UP-TO-DATE
+> Task :shared:compileDebugKotlinAndroid UP-TO-DATE
+> Task :shared:extractDebugAnnotations UP-TO-DATE
+> Task :shared:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :shared:mergeDebugShaders UP-TO-DATE
+> Task :shared:compileDebugShaders NO-SOURCE
+> Task :shared:debugAssetsCopyForAGP NO-SOURCE
+> Task :shared:generateDebugAssets UP-TO-DATE
+> Task :shared:mergeDebugAssets UP-TO-DATE
+> Task :shared:javaPreCompileDebug UP-TO-DATE
+> Task :shared:compileDebugJavaWithJavac NO-SOURCE
+> Task :shared:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :shared:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :shared:prepareDebugArtProfile UP-TO-DATE
+> Task :shared:prepareLintJarForPublish UP-TO-DATE
+> Task :shared:processDebugManifest UP-TO-DATE
+> Task :shared:processDebugJavaRes UP-TO-DATE
+> Task :shared:mergeDebugJavaResource UP-TO-DATE
+> Task :shared:syncDebugLibJars UP-TO-DATE
+> Task :shared:writeDebugAarMetadata UP-TO-DATE
+> Task :shared:bundleDebugAar UP-TO-DATE
+> Task :shared:assembleDebug UP-TO-DATE
+> Task :shared:preReleaseBuild UP-TO-DATE
+> Task :shared:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :shared:mergeReleaseNativeLibs NO-SOURCE
+> Task :shared:stripReleaseDebugSymbols NO-SOURCE
+> Task :shared:copyReleaseJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :shared:generateReleaseResValues UP-TO-DATE
+> Task :shared:extractDeepLinksForAarRelease UP-TO-DATE
+> Task :shared:generateReleaseResources UP-TO-DATE
+> Task :shared:packageReleaseResources UP-TO-DATE
+> Task :shared:parseReleaseLocalResources UP-TO-DATE
+> Task :shared:generateReleaseRFile UP-TO-DATE
+> Task :shared:kspReleaseKotlinAndroid UP-TO-DATE
+> Task :shared:compileReleaseKotlinAndroid UP-TO-DATE
+> Task :shared:extractReleaseAnnotations UP-TO-DATE
+> Task :shared:mergeReleaseShaders UP-TO-DATE
+> Task :shared:compileReleaseShaders NO-SOURCE
+> Task :shared:generateReleaseAssets UP-TO-DATE
+> Task :shared:releaseAssetsCopyForAGP NO-SOURCE
+> Task :shared:mergeReleaseAssets UP-TO-DATE
+> Task :shared:javaPreCompileRelease UP-TO-DATE
+> Task :shared:compileReleaseJavaWithJavac NO-SOURCE
+> Task :shared:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :shared:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :shared:prepareReleaseArtProfile UP-TO-DATE
+> Task :shared:processReleaseManifest UP-TO-DATE
+> Task :shared:processReleaseJavaRes UP-TO-DATE
+> Task :shared:mergeReleaseJavaResource UP-TO-DATE
+> Task :shared:syncReleaseLibJars UP-TO-DATE
+> Task :shared:writeReleaseAarMetadata UP-TO-DATE
+> Task :shared:bundleReleaseAar UP-TO-DATE
+> Task :shared:mapReleaseSourceSetPaths UP-TO-DATE
+> Task :shared:mergeReleaseResources UP-TO-DATE
+> Task :shared:verifyReleaseResources UP-TO-DATE
+> Task :shared:assembleRelease UP-TO-DATE
+> Task :commonizeNativeDistribution UP-TO-DATE
+> Task :shared:transformNativeMainDependenciesMetadata UP-TO-DATE
+> Task :shared:compileNativeMainKotlinMetadata NO-SOURCE
+> Task :shared:metadataNativeMainProcessResources NO-SOURCE
+> Task :shared:metadataNativeMainClasses UP-TO-DATE
+> Task :shared:transformAppleMainDependenciesMetadata UP-TO-DATE
+> Task :shared:compileAppleMainKotlinMetadata NO-SOURCE
+> Task :shared:metadataAppleMainProcessResources NO-SOURCE
+> Task :shared:metadataAppleMainClasses UP-TO-DATE
+> Task :shared:transformIosMainDependenciesMetadata UP-TO-DATE
+> Task :shared:compileIosMainKotlinMetadata UP-TO-DATE
+> Task :shared:skieProcessSwiftSourcesIosArm64 UP-TO-DATE
+> Task :shared:compileKotlinIosArm64 UP-TO-DATE
+> Task :shared:skieProcessSwiftSourcesIosSimulatorArm64 UP-TO-DATE
+> Task :shared:compileKotlinIosSimulatorArm64 UP-TO-DATE
+> Task :shared:skieProcessSwiftSourcesIosX64 UP-TO-DATE
+> Task :shared:compileKotlinIosX64 UP-TO-DATE
+> Task :shared:iosArm64ProcessResources NO-SOURCE
+> Task :shared:iosArm64MainKlibrary UP-TO-DATE
+> Task :shared:skieProcessSwiftSourcesTestIosArm64 UP-TO-DATE
+> Task :shared:compileTestKotlinIosArm64 UP-TO-DATE
+> Task :shared:iosSimulatorArm64ProcessResources NO-SOURCE
+> Task :shared:iosSimulatorArm64MainKlibrary UP-TO-DATE
+> Task :shared:skieProcessSwiftSourcesTestIosSimulatorArm64 UP-TO-DATE
+> Task :shared:compileTestKotlinIosSimulatorArm64 UP-TO-DATE
+> Task :shared:iosX64ProcessResources NO-SOURCE
+> Task :shared:iosX64MainKlibrary UP-TO-DATE
+> Task :shared:skieProcessSwiftSourcesTestIosX64 UP-TO-DATE
+> Task :shared:compileTestKotlinIosX64 UP-TO-DATE
+> Task :shared:metadataIosMainProcessResources NO-SOURCE
+> Task :shared:metadataIosMainClasses UP-TO-DATE
+> Task :shared:iosArm64MetadataElements UP-TO-DATE
+> Task :shared:iosSimulatorArm64MetadataElements UP-TO-DATE
+> Task :shared:iosX64MetadataElements UP-TO-DATE
+> Task :shared:skieCreateSkieDirectoriesDebugFrameworkIosArm64 UP-TO-DATE
+> Task :shared:skieCreateConfigurationDebugFrameworkIosArm64
+> Task :shared:skieUnpackSwiftSourcesDebugFrameworkIosArm64 UP-TO-DATE
+
+> Task :shared:linkDebugFrameworkIosArm64 FAILED
+e: Failed to build cache for /Users/nileshteji/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation-iosarm64/1.8.0/a5a8c3672a380834dafc26e46cacdb7f47a4d6c/annotation.
+As a workaround, please try to disable compiler caches (kotlin.native.cacheKind=none)
+
+Also, consider filing an issue with full Gradle log here: https://kotl.in/issue
+
+An error occurred during an xcrun execution. Make sure that Xcode and its command line tools are properly installed.
+Failed command: /usr/bin/xcrun xcodebuild -version
+Try running this command in Terminal and fix the errors by making Xcode (and its command line tools) configuration correct.
+
+org.jetbrains.kotlin.konan.MissingXcodeException: An error occurred during an xcrun execution. Make sure that Xcode and its command line tools are properly installed.
+Failed command: /usr/bin/xcrun xcodebuild -version
+Try running this command in Terminal and fix the errors by making Xcode (and its command line tools) configuration correct.
+	at org.jetbrains.kotlin.konan.target.CurrentXcode.xcrun(Xcode.kt:147)
+	at org.jetbrains.kotlin.konan.target.CurrentXcode.getXcodebuildVersion$kotlin_native_utils(Xcode.kt:120)
+	at org.jetbrains.kotlin.konan.target.CurrentXcode$version$2.invoke(Xcode.kt:132)
+	at org.jetbrains.kotlin.konan.target.CurrentXcode$version$2.invoke(Xcode.kt:128)
+	at kotlin.SynchronizedLazyImpl.getValue(LazyJVM.kt:83)
+	at org.jetbrains.kotlin.konan.target.CurrentXcode.getVersion(Xcode.kt:128)
+	at org.jetbrains.kotlin.konan.target.AppleConfigurablesImpl$xcodePartsProvider$2.invoke(Apple.kt:66)
+	at org.jetbrains.kotlin.konan.target.AppleConfigurablesImpl$xcodePartsProvider$2.invoke(Apple.kt:58)
+	at kotlin.SynchronizedLazyImpl.getValue(LazyJVM.kt:83)
+	at org.jetbrains.kotlin.konan.target.AppleConfigurablesImpl.getXcodePartsProvider(Apple.kt:58)
+	at org.jetbrains.kotlin.konan.target.AppleConfigurablesImpl.getAbsoluteTargetToolchain(Apple.kt:40)
+	at org.jetbrains.kotlin.konan.target.ClangArgs.<init>(ClangArgs.kt:28)
+	at org.jetbrains.kotlin.konan.target.ClangArgs.<init>(ClangArgs.kt)
+	at org.jetbrains.kotlin.konan.target.ClangArgs$Native.<init>(ClangArgs.kt:234)
+	at org.jetbrains.kotlin.konan.target.Platform$clang$2.invoke(Platform.kt:22)
+	at org.jetbrains.kotlin.konan.target.Platform$clang$2.invoke(Platform.kt:21)
+	at kotlin.SynchronizedLazyImpl.getValue(LazyJVM.kt:83)
+	at org.jetbrains.kotlin.konan.target.Platform.getClang(Platform.kt:21)
+	at org.jetbrains.kotlin.backend.konan.KonanConfig.clang_delegate$lambda$37(KonanConfig.kt:285)
+	at kotlin.SynchronizedLazyImpl.getValue(LazyJVM.kt:83)
+	at org.jetbrains.kotlin.backend.konan.KonanConfig.getClang$backend_native(KonanConfig.kt:285)
+	at org.jetbrains.kotlin.backend.konan.CompilerOutputKt.produceCStubs(CompilerOutput.kt:68)
+	at org.jetbrains.kotlin.backend.konan.driver.phases.BitcodeKt.CStubsPhase$lambda$7(Bitcode.kt:126)
+	at org.jetbrains.kotlin.backend.common.phaser.PhaseBuildersKt$createSimpleNamedCompilerPhase$3.phaseBody(PhaseBuilders.kt:91)
+	at org.jetbrains.kotlin.backend.common.phaser.PhaseBuildersKt$createSimpleNamedCompilerPhase$3.phaseBody(PhaseBuilders.kt:79)
+	at org.jetbrains.kotlin.backend.common.phaser.SimpleNamedCompilerPhase.phaseBody(CompilerPhase.kt:226)
+	at org.jetbrains.kotlin.backend.common.phaser.AbstractNamedCompilerPhase.invoke(CompilerPhase.kt:113)
+	at org.jetbrains.kotlin.backend.konan.driver.PhaseEngine.runPhase(Machinery.kt:120)
+	at org.jetbrains.kotlin.backend.konan.driver.PhaseEngine.runPhase$default(Machinery.kt:111)
+	at org.jetbrains.kotlin.backend.konan.driver.PhaseEngine.runPhase(Machinery.kt:126)
+	at org.jetbrains.kotlin.backend.konan.driver.phases.TopLevelPhasesKt.runBackendCodegen(TopLevelPhases.kt:385)
+	at org.jetbrains.kotlin.backend.konan.driver.phases.TopLevelPhasesKt.compileModule(TopLevelPhases.kt:272)
+	at org.jetbrains.kotlin.backend.konan.driver.phases.TopLevelPhasesKt.runBackend$lambda$13$runAfterLowerings(TopLevelPhases.kt:117)
+	at org.jetbrains.kotlin.backend.konan.driver.phases.TopLevelPhasesKt.runBackend(TopLevelPhases.kt:145)
+	at org.jetbrains.kotlin.backend.konan.driver.DynamicCompilerDriver.produceBinary(DynamicCompilerDriver.kt:183)
+	at org.jetbrains.kotlin.backend.konan.driver.DynamicCompilerDriver.run$lambda$2$lambda$1$lambda$0(DynamicCompilerDriver.kt:47)
+	at org.jetbrains.kotlin.backend.konan.driver.PhaseEngine$Companion$startTopLevel$topLevelPhase$1.phaseBody(Machinery.kt:79)
+	at org.jetbrains.kotlin.backend.konan.driver.PhaseEngine$Companion$startTopLevel$topLevelPhase$1.phaseBody(Machinery.kt:73)
+	at org.jetbrains.kotlin.backend.common.phaser.SimpleNamedCompilerPhase.phaseBody(CompilerPhase.kt:226)
+	at org.jetbrains.kotlin.backend.common.phaser.AbstractNamedCompilerPhase.invoke(CompilerPhase.kt:113)
+	at org.jetbrains.kotlin.backend.konan.driver.PhaseEngine$Companion.startTopLevel(Machinery.kt:86)
+	at org.jetbrains.kotlin.backend.konan.driver.DynamicCompilerDriver.run(DynamicCompilerDriver.kt:37)
+	at org.jetbrains.kotlin.backend.konan.KonanDriver.run(KonanDriver.kt:151)
+	at org.jetbrains.kotlin.cli.bc.K2Native.runKonanDriver(K2Native.kt:167)
+	at org.jetbrains.kotlin.cli.bc.K2Native.access$runKonanDriver(K2Native.kt:32)
+	at org.jetbrains.kotlin.cli.bc.K2Native$runKonanDriver$konanDriver$1.spawn(K2Native.kt:164)
+	at org.jetbrains.kotlin.backend.konan.CacheBuilder.spawnLibraryCacheBuild(CacheBuilder.kt:422)
+	at org.jetbrains.kotlin.backend.konan.CacheBuilder.tryBuildingLibraryCache(CacheBuilder.kt:386)
+	at org.jetbrains.kotlin.backend.konan.CacheBuilder.buildLibraryCache(CacheBuilder.kt:307)
+	at org.jetbrains.kotlin.backend.konan.CacheBuilder.build(CacheBuilder.kt:111)
+	at org.jetbrains.kotlin.backend.konan.KonanDriver.run(KonanDriver.kt:137)
+	at org.jetbrains.kotlin.cli.bc.K2Native.runKonanDriver(K2Native.kt:167)
+	at org.jetbrains.kotlin.cli.bc.K2Native.doExecute(K2Native.kt:63)
+	at org.jetbrains.kotlin.cli.bc.K2Native.doExecute(K2Native.kt:32)
+	at org.jetbrains.kotlin.cli.common.CLICompiler.execImpl(CLICompiler.kt:102)
+	at org.jetbrains.kotlin.cli.common.CLICompiler.exec(CLICompiler.kt:316)
+	at org.jetbrains.kotlin.cli.common.CLICompiler.exec(CLICompiler.kt:294)
+	at org.jetbrains.kotlin.cli.common.CLICompiler.exec(CLICompiler.kt:258)
+	at org.jetbrains.kotlin.cli.common.CLICompiler$Companion.doMainNoExit(CLICompiler.kt:395)
+	at org.jetbrains.kotlin.cli.bc.K2Native$Companion.mainNoExitWithRenderer$lambda$2(K2Native.kt:217)
+	at org.jetbrains.kotlin.util.UtilKt.profileIf(Util.kt:22)
+	at org.jetbrains.kotlin.util.UtilKt.profile(Util.kt:16)
+	at org.jetbrains.kotlin.cli.bc.K2Native$Companion.mainNoExitWithRenderer(K2Native.kt:216)
+	at org.jetbrains.kotlin.cli.bc.K2NativeKt.mainNoExitWithGradleRenderer(K2Native.kt:234)
+	at org.jetbrains.kotlin.cli.utilities.MainKt$daemonMain$1.invoke(main.kt:50)
+	at org.jetbrains.kotlin.cli.utilities.MainKt$daemonMain$1.invoke(main.kt:50)
+	at org.jetbrains.kotlin.cli.utilities.MainKt.mainImpl(main.kt:20)
+	at org.jetbrains.kotlin.cli.utilities.MainKt.inProcessMain(main.kt:57)
+	at org.jetbrains.kotlin.cli.utilities.MainKt.daemonMain(main.kt:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.jetbrains.kotlin.internal.compilerRunner.native.KotlinNativeToolRunner.runInProcess(KotlinNativeToolRunner.kt:151)
+	at org.jetbrains.kotlin.internal.compilerRunner.native.KotlinNativeToolRunner.runTool(KotlinNativeToolRunner.kt:52)
+	at org.jetbrains.kotlin.gradle.tasks.KotlinNativeLink$compile$1.invoke(KotlinNativeLink.kt:455)
+	at org.jetbrains.kotlin.gradle.tasks.KotlinNativeLink$compile$1.invoke(KotlinNativeLink.kt:410)
+	at org.jetbrains.kotlin.compilerRunner.ReportUtilsKt.addBuildMetricsForTaskAction(reportUtils.kt:259)
+	at org.jetbrains.kotlin.gradle.tasks.KotlinNativeLink.compile(KotlinNativeLink.kt:410)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:125)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:58)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:51)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:29)
+	at org.gradle.api.internal.tasks.execution.TaskExecution$3.run(TaskExecution.java:244)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:30)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:27)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.run(DefaultBuildOperationRunner.java:48)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeAction(TaskExecution.java:229)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeActions(TaskExecution.java:212)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeWithPreviousOutputFiles(TaskExecution.java:195)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.execute(TaskExecution.java:162)
+	at org.gradle.internal.execution.steps.ExecuteStep.executeInternal(ExecuteStep.java:105)
+	at org.gradle.internal.execution.steps.ExecuteStep.access$000(ExecuteStep.java:44)
+	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:59)
+	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:56)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:210)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:205)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:54)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:56)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:44)
+	at org.gradle.internal.execution.steps.CancelExecutionStep.execute(CancelExecutionStep.java:42)
+	at org.gradle.internal.execution.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:75)
+	at org.gradle.internal.execution.steps.TimeoutStep.execute(TimeoutStep.java:55)
+	at org.gradle.internal.execution.steps.PreCreateOutputParentsStep.execute(PreCreateOutputParentsStep.java:50)
+	at org.gradle.internal.execution.steps.PreCreateOutputParentsStep.execute(PreCreateOutputParentsStep.java:28)
+	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.execute(RemovePreviousOutputsStep.java:67)
+	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.execute(RemovePreviousOutputsStep.java:37)
+	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:61)
+	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:26)
+	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execute(CaptureOutputsAfterExecutionStep.java:69)
+	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execute(CaptureOutputsAfterExecutionStep.java:46)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:40)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:29)
+	at org.gradle.internal.execution.steps.BuildCacheStep.executeWithoutCache(BuildCacheStep.java:189)
+	at org.gradle.internal.execution.steps.BuildCacheStep.lambda$execute$1(BuildCacheStep.java:75)
+	at org.gradle.internal.Either$Right.fold(Either.java:175)
+	at org.gradle.internal.execution.caching.CachingState.fold(CachingState.java:62)
+	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:73)
+	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:48)
+	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:46)
+	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:35)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:75)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$2(SkipUpToDateStep.java:53)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:53)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:35)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:37)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:27)
+	at org.gradle.internal.execution.steps.ResolveIncrementalCachingStateStep.executeDelegate(ResolveIncrementalCachingStateStep.java:49)
+	at org.gradle.internal.execution.steps.ResolveIncrementalCachingStateStep.executeDelegate(ResolveIncrementalCachingStateStep.java:27)
+	at org.gradle.internal.execution.steps.AbstractResolveCachingStateStep.execute(AbstractResolveCachingStateStep.java:71)
+	at org.gradle.internal.execution.steps.AbstractResolveCachingStateStep.execute(AbstractResolveCachingStateStep.java:39)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:65)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:36)
+	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:107)
+	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:56)
+	at org.gradle.internal.execution.steps.AbstractCaptureStateBeforeExecutionStep.execute(AbstractCaptureStateBeforeExecutionStep.java:64)
+	at org.gradle.internal.execution.steps.AbstractCaptureStateBeforeExecutionStep.execute(AbstractCaptureStateBeforeExecutionStep.java:43)
+	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.executeWithNonEmptySources(AbstractSkipEmptyWorkStep.java:125)
+	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.execute(AbstractSkipEmptyWorkStep.java:61)
+	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.execute(AbstractSkipEmptyWorkStep.java:36)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsStartedStep.execute(MarkSnapshottingInputsStartedStep.java:38)
+	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadPreviousExecutionStateStep.java:36)
+	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadPreviousExecutionStateStep.java:23)
+	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.execute(HandleStaleOutputsStep.java:75)
+	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.execute(HandleStaleOutputsStep.java:41)
+	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.lambda$execute$0(AssignMutableWorkspaceStep.java:35)
+	at org.gradle.api.internal.tasks.execution.TaskExecution$4.withWorkspace(TaskExecution.java:289)
+	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.execute(AssignMutableWorkspaceStep.java:31)
+	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.execute(AssignMutableWorkspaceStep.java:22)
+	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineStep.java:40)
+	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineStep.java:23)
+	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.lambda$execute$2(ExecuteWorkBuildOperationFiringStep.java:67)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:67)
+	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:39)
+	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:46)
+	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:34)
+	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:48)
+	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:35)
+	at org.gradle.internal.execution.impl.DefaultExecutionEngine$1.execute(DefaultExecutionEngine.java:61)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:127)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:116)
+	at org.gradle.api.internal.tasks.execution.ProblemsTaskPathTrackingTaskExecuter.execute(ProblemsTaskPathTrackingTaskExecuter.java:40)
+	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:74)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:210)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:205)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:54)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:42)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:331)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:318)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.lambda$execute$0(DefaultTaskExecutionGraph.java:314)
+	at org.gradle.internal.operations.CurrentBuildOperationRef.with(CurrentBuildOperationRef.java:85)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:314)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:303)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:459)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:376)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:48)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.jetbrains.kotlin.konan.KonanExternalToolFailure: The /usr/bin/xcrun command returned non-zero exit code: 72.
+output:
+
+	at org.jetbrains.kotlin.konan.exec.Command.handleExitCode(ExecuteCommand.kt:123)
+	at org.jetbrains.kotlin.konan.exec.Command.getResult(ExecuteCommand.kt:112)
+	at org.jetbrains.kotlin.konan.exec.Command.getOutputLines(ExecuteCommand.kt:87)
+	at org.jetbrains.kotlin.konan.exec.Command.getOutputLines$default(ExecuteCommand.kt:86)
+	at org.jetbrains.kotlin.konan.target.CurrentXcode.xcrun(Xcode.kt:137)
+	... 205 more
+
+
+> Task :shared:skieUploadAnalyticsDebugFrameworkIosArm64
+
+[Incubating] Problems report is available at: file:///Users/nileshteji/Developer/gyansar/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':shared:linkDebugFrameworkIosArm64'.
+> Compilation finished with errors
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.13/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 2s
+79 actionable tasks: 3 executed, 76 up-to-date

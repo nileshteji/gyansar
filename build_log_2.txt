@@ -1,0 +1,340 @@
+Type-safe project accessors is an incubating feature.
+Configuration 'kotlinCompilerPluginClasspathMetadataCommonMain' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'commonMainResolvableDependenciesMetadata' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'allSourceSetsCompileDependenciesMetadata' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'kotlinCompilerClasspath' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'iosX64CompilationDependenciesMetadata' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'iosSimulatorArm64CompilationDependenciesMetadata' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'iosArm64CompilationDependenciesMetadata' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'debugCompileClasspath' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'debugRuntimeClasspath' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'kotlinCompilerPluginClasspathAndroidDebug' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'androidApis' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'kspDebugKotlinAndroidProcessorClasspath' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'kspPluginClasspath' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'androidJdkImage' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'debugAnnotationProcessorClasspath' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration '_agp_internal_javaPreCompileDebug_kspClasspath' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'lintPublish' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'releaseCompileClasspath' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'releaseRuntimeClasspath' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'kotlinCompilerPluginClasspathAndroidRelease' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'kspReleaseKotlinAndroidProcessorClasspath' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'releaseAnnotationProcessorClasspath' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration '_agp_internal_javaPreCompileRelease_kspClasspath' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'appleMainResolvableDependenciesMetadata' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'kotlinCompilerPluginClasspathMetadataAppleMain' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'nativeMainResolvableDependenciesMetadata' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'kotlinCompilerPluginClasspathMetadataNativeMain' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'iosMainResolvableDependenciesMetadata' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'kotlinCompilerPluginClasspathMetadataIosMain' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'iosArm64CompileKlibraries' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'skieRuntimeForIosArm64CompileKlibraries' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'kotlinCompilerPluginClasspathIosArm64Main' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'iosSimulatorArm64CompileKlibraries' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'skieRuntimeForIosSimulatorArm64CompileKlibraries' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'kotlinCompilerPluginClasspathIosSimulatorArm64Main' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'iosX64CompileKlibraries' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'skieRuntimeForIosX64CompileKlibraries' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'kotlinCompilerPluginClasspathIosX64Main' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'iosArm64TestCompileKlibraries' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'kotlinCompilerPluginClasspathIosArm64Test' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'iosSimulatorArm64TestCompileKlibraries' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'kotlinCompilerPluginClasspathIosSimulatorArm64Test' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'iosX64TestCompileKlibraries' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'kotlinCompilerPluginClasspathIosX64Test' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'iosArm64DebugFrameworkExport' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'skieCompilerPlugin' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'skieSubPlugin' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'iosX64DebugFrameworkExport' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'iosSimulatorArm64DebugFrameworkExport' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'iosArm64ReleaseFrameworkExport' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'iosX64ReleaseFrameworkExport' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'iosSimulatorArm64ReleaseFrameworkExport' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+> Task :shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :shared:transformCommonMainDependenciesMetadata
+> Task :shared:generateProjectStructureMetadata UP-TO-DATE
+> Task :shared:metadataCommonMainProcessResources NO-SOURCE
+> Task :shared:preBuild UP-TO-DATE
+> Task :shared:preDebugBuild UP-TO-DATE
+> Task :shared:mergeDebugJniLibFolders UP-TO-DATE
+> Task :shared:mergeDebugNativeLibs NO-SOURCE
+> Task :shared:stripDebugDebugSymbols NO-SOURCE
+> Task :shared:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :shared:generateDebugResValues UP-TO-DATE
+> Task :shared:generateDebugResources UP-TO-DATE
+> Task :shared:packageDebugResources UP-TO-DATE
+> Task :shared:parseDebugLocalResources UP-TO-DATE
+> Task :shared:generateDebugRFile UP-TO-DATE
+
+> Task :shared:compileCommonMainKotlinMetadata
+w: Opt-in requirement marker kotlinx.cinterop.ExperimentalForeignApi is unresolved. Please make sure it's present in the module dependencies
+w: file:///Users/nileshteji/Developer/gyansar/shared/src/commonMain/kotlin/com/jetbrains/kmpapp/feature/assessment/presentation/GyansarAssessmentViewModel.kt:44:20 This declaration needs opt-in. Its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@OptIn(kotlinx.coroutines.ExperimentalCoroutinesApi::class)'
+w: file:///Users/nileshteji/Developer/gyansar/shared/src/commonMain/kotlin/com/jetbrains/kmpapp/feature/quiz/presentation/GyansarQuizDetailViewModel.kt:19:16 This declaration needs opt-in. Its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@OptIn(kotlinx.coroutines.ExperimentalCoroutinesApi::class)'
+
+> Task :shared:metadataCommonMainClasses
+> Task :shared:allMetadataJar
+> Task :shared:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :shared:mergeDebugShaders UP-TO-DATE
+> Task :shared:compileDebugShaders NO-SOURCE
+> Task :shared:debugAssetsCopyForAGP NO-SOURCE
+> Task :shared:generateDebugAssets UP-TO-DATE
+> Task :shared:mergeDebugAssets UP-TO-DATE
+> Task :shared:javaPreCompileDebug UP-TO-DATE
+> Task :shared:prepareDebugArtProfile UP-TO-DATE
+> Task :shared:prepareLintJarForPublish UP-TO-DATE
+> Task :shared:processDebugManifest UP-TO-DATE
+> Task :shared:writeDebugAarMetadata UP-TO-DATE
+> Task :shared:preReleaseBuild UP-TO-DATE
+> Task :shared:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :shared:mergeReleaseNativeLibs NO-SOURCE
+> Task :shared:stripReleaseDebugSymbols NO-SOURCE
+> Task :shared:copyReleaseJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :shared:generateReleaseResValues UP-TO-DATE
+> Task :shared:extractDeepLinksForAarRelease UP-TO-DATE
+> Task :shared:generateReleaseResources UP-TO-DATE
+> Task :shared:packageReleaseResources UP-TO-DATE
+> Task :shared:parseReleaseLocalResources UP-TO-DATE
+> Task :shared:mergeReleaseShaders UP-TO-DATE
+> Task :shared:compileReleaseShaders NO-SOURCE
+> Task :shared:generateReleaseAssets UP-TO-DATE
+> Task :shared:releaseAssetsCopyForAGP NO-SOURCE
+> Task :shared:generateReleaseRFile
+> Task :shared:mergeReleaseAssets
+> Task :shared:prepareReleaseArtProfile
+> Task :shared:writeReleaseAarMetadata
+> Task :shared:processReleaseManifest
+> Task :shared:javaPreCompileRelease
+> Task :shared:mapReleaseSourceSetPaths
+> Task :shared:mergeReleaseResources
+
+> Task :shared:kspDebugKotlinAndroid
+w: Opt-in requirement marker kotlinx.cinterop.ExperimentalForeignApi is unresolved. Please make sure it's present in the module dependencies
+
+> Task :shared:kspReleaseKotlinAndroid
+w: Opt-in requirement marker kotlinx.cinterop.ExperimentalForeignApi is unresolved. Please make sure it's present in the module dependencies
+
+> Task :shared:verifyReleaseResources
+
+> Task :shared:compileDebugKotlinAndroid
+w: Opt-in requirement marker kotlinx.cinterop.ExperimentalForeignApi is unresolved. Please make sure it's present in the module dependencies
+w: file:///Users/nileshteji/Developer/gyansar/shared/src/androidMain/kotlin/com/jetbrains/kmpapp/di/PlatformModules.kt:15:14 'fun fallbackToDestructiveMigration(): RoomDatabase.Builder<GyansarDatabase>' is deprecated. Replace by overloaded version with parameter to indicate if all tables should be dropped or not.
+w: file:///Users/nileshteji/Developer/gyansar/shared/src/commonMain/kotlin/com/jetbrains/kmpapp/feature/assessment/presentation/GyansarAssessmentViewModel.kt:44:20 This declaration needs opt-in. Its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@OptIn(kotlinx.coroutines.ExperimentalCoroutinesApi::class)'
+w: file:///Users/nileshteji/Developer/gyansar/shared/src/commonMain/kotlin/com/jetbrains/kmpapp/feature/quiz/presentation/GyansarQuizDetailViewModel.kt:19:16 This declaration needs opt-in. Its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@OptIn(kotlinx.coroutines.ExperimentalCoroutinesApi::class)'
+
+> Task :shared:compileReleaseKotlinAndroid
+w: Opt-in requirement marker kotlinx.cinterop.ExperimentalForeignApi is unresolved. Please make sure it's present in the module dependencies
+w: file:///Users/nileshteji/Developer/gyansar/shared/src/androidMain/kotlin/com/jetbrains/kmpapp/di/PlatformModules.kt:15:14 'fun fallbackToDestructiveMigration(): RoomDatabase.Builder<GyansarDatabase>' is deprecated. Replace by overloaded version with parameter to indicate if all tables should be dropped or not.
+w: file:///Users/nileshteji/Developer/gyansar/shared/src/commonMain/kotlin/com/jetbrains/kmpapp/feature/assessment/presentation/GyansarAssessmentViewModel.kt:44:20 This declaration needs opt-in. Its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@OptIn(kotlinx.coroutines.ExperimentalCoroutinesApi::class)'
+w: file:///Users/nileshteji/Developer/gyansar/shared/src/commonMain/kotlin/com/jetbrains/kmpapp/feature/quiz/presentation/GyansarQuizDetailViewModel.kt:19:16 This declaration needs opt-in. Its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@OptIn(kotlinx.coroutines.ExperimentalCoroutinesApi::class)'
+
+> Task :commonizeNativeDistribution
+> Task :shared:extractDebugAnnotations
+> Task :shared:compileDebugJavaWithJavac NO-SOURCE
+> Task :shared:mergeDebugGeneratedProguardFiles
+> Task :shared:mergeDebugConsumerProguardFiles
+> Task :shared:processDebugJavaRes
+> Task :shared:mergeDebugJavaResource
+> Task :shared:extractReleaseAnnotations
+> Task :shared:syncDebugLibJars
+> Task :shared:bundleDebugAar
+> Task :shared:assembleDebug
+> Task :shared:compileReleaseJavaWithJavac NO-SOURCE
+> Task :shared:mergeReleaseGeneratedProguardFiles
+> Task :shared:mergeReleaseConsumerProguardFiles
+> Task :shared:processReleaseJavaRes
+> Task :shared:mergeReleaseJavaResource
+> Task :shared:transformNativeMainDependenciesMetadata
+> Task :shared:syncReleaseLibJars
+> Task :shared:bundleReleaseAar
+> Task :shared:assembleRelease
+> Task :shared:compileNativeMainKotlinMetadata NO-SOURCE
+> Task :shared:metadataNativeMainProcessResources NO-SOURCE
+> Task :shared:metadataNativeMainClasses UP-TO-DATE
+> Task :shared:transformAppleMainDependenciesMetadata
+> Task :shared:compileAppleMainKotlinMetadata NO-SOURCE
+> Task :shared:metadataAppleMainProcessResources NO-SOURCE
+> Task :shared:metadataAppleMainClasses UP-TO-DATE
+> Task :shared:transformIosMainDependenciesMetadata
+
+> Task :shared:compileIosMainKotlinMetadata FAILED
+e: file:///Users/nileshteji/Developer/gyansar/shared/src/iosMain/kotlin/com/jetbrains/kmpapp/feature/quiz/data/local/InMemoryQuizLocalDataSource.kt:63:26 Unresolved reference 'timeIntervalSince1970'.
+
+[Incubating] Problems report is available at: file:///Users/nileshteji/Developer/gyansar/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':shared:compileIosMainKotlinMetadata'.
+> Compilation finished with errors
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.13/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 30s
+59 actionable tasks: 35 executed, 24 up-to-date

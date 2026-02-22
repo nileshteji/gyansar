@@ -7,7 +7,7 @@ import com.jetbrains.kmpapp.feature.quiz.domain.QuizWithQuestions
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.combine
-import platform.Foundation.NSDate
+import platform.Foundation.*
 
 class InMemoryQuizLocalDataSource : QuizLocalDataSource {
     private val quizzes = MutableStateFlow<List<Quiz>>(emptyList())
@@ -60,6 +60,6 @@ class InMemoryQuizLocalDataSource : QuizLocalDataSource {
     }
 
     private fun currentTimeMillis(): Long {
-        return (NSDate().timeIntervalSince1970 * 1000).toLong()
+        return (NSDate.date().timeIntervalSince1970 * 1000).toLong()
     }
 }

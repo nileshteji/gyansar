@@ -4,7 +4,6 @@ import com.jetbrains.kmpapp.feature.quiz.domain.Quiz
 import com.jetbrains.kmpapp.feature.quiz.domain.usecase.ObserveQuizzesUseCase
 import com.jetbrains.kmpapp.feature.quiz.domain.usecase.SeedQuizzesIfEmptyUseCase
 import com.jetbrains.kmpapp.feature.wireframe.presentation.GyansarWireframeData
-import com.rickclephas.kmp.nativecoroutines.NativeCoroutinesState
 import com.rickclephas.kmp.observableviewmodel.ViewModel
 import com.rickclephas.kmp.observableviewmodel.launch
 import com.rickclephas.kmp.observableviewmodel.stateIn
@@ -21,7 +20,6 @@ class GyansarStudentDashboardViewModel(
         recentTests = emptyList()
     )
 
-    @NativeCoroutinesState
     val state: StateFlow<StudentDashboardState> =
         observeQuizzes()
             .map { quizzes -> baseState.copy(recentTests = quizzes.toRecentTests()) }

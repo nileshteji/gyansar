@@ -2,7 +2,6 @@ package com.jetbrains.kmpapp.feature.quiz.presentation
 
 import com.jetbrains.kmpapp.feature.quiz.domain.QuizWithQuestions
 import com.jetbrains.kmpapp.feature.quiz.domain.usecase.ObserveQuizWithQuestionsUseCase
-import com.rickclephas.kmp.nativecoroutines.NativeCoroutinesState
 import com.rickclephas.kmp.observableviewmodel.ViewModel
 import com.rickclephas.kmp.observableviewmodel.stateIn
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -16,7 +15,6 @@ class GyansarQuizDetailViewModel(
 ) : ViewModel() {
     private val quizId = MutableStateFlow<Long?>(null)
 
-    @NativeCoroutinesState
     val quiz: StateFlow<QuizWithQuestions?> =
         quizId.flatMapLatest { id ->
             if (id == null) {

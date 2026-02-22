@@ -37,6 +37,7 @@ import com.jetbrains.kmpapp.feature.quiz.ui.CreateQuizScreen
 import com.jetbrains.kmpapp.feature.quiz.ui.QuizAnalyticsScreen
 import com.jetbrains.kmpapp.feature.quiz.ui.QuizReviewScreen
 import com.jetbrains.kmpapp.feature.wireframe.presentation.GyansarWireframeData
+import com.jetbrains.kmpapp.navigation.GyansarRoutes
 import com.jetbrains.kmpapp.ui.theme.GyansarTheme
 import kotlinx.coroutines.launch
 import org.koin.androidx.compose.koinViewModel
@@ -52,34 +53,34 @@ fun App() {
             Scaffold(contentWindowInsets = WindowInsets.safeDrawing) { padding ->
                 NavHost(
                     navController = navController,
-                    startDestination = GyansarRoutes.Login,
+                    startDestination = GyansarRoutes.LOGIN,
                     modifier = Modifier.padding(padding)
                 ) {
-                    composable(GyansarRoutes.Login) {
+                    composable(GyansarRoutes.LOGIN) {
                         LoginScreen(
                             state = labels.login,
-                            onSignIn = { navController.navigate(GyansarRoutes.ProfileSelection) }
+                            onSignIn = { navController.navigate(GyansarRoutes.PROFILE_SELECTION) }
                         )
                     }
-                    composable(GyansarRoutes.ProfileSelection) {
+                    composable(GyansarRoutes.PROFILE_SELECTION) {
                         ProfileSelectionScreen(
                             state = labels.profileSelection,
-                            onStudentClick = { navController.navigate(GyansarRoutes.StudentDashboard) },
-                            onTutorClick = { navController.navigate(GyansarRoutes.TutorDashboard) }
+                            onStudentClick = { navController.navigate(GyansarRoutes.STUDENT_DASHBOARD) },
+                            onTutorClick = { navController.navigate(GyansarRoutes.TUTOR_DASHBOARD) }
                         )
                     }
-                    composable(GyansarRoutes.StudentDashboard) {
+                    composable(GyansarRoutes.STUDENT_DASHBOARD) {
                         val viewModel: GyansarStudentDashboardViewModel = koinViewModel()
                         val state by viewModel.state.collectAsStateWithLifecycle()
                         StudentDashboardScreen(
                             state = state,
-                            onCreateTest = { navController.navigate(GyansarRoutes.CreateTest) },
+                            onCreateTest = { navController.navigate(GyansarRoutes.CREATE_TEST) },
                             onRecentTestClick = { quizId ->
                                 navController.navigate(GyansarRoutes.assessmentRoute(quizId))
                             }
                         )
                     }
-                    composable(GyansarRoutes.CreateTest) {
+                    composable(GyansarRoutes.CREATE_TEST) {
                         val editorViewModel: GyansarQuizEditorViewModel = koinViewModel()
                         CreateTestConfigScreen(
                             state = labels.createTest,
@@ -94,10 +95,10 @@ fun App() {
                         )
                     }
                     composable(
-                        route = GyansarRoutes.Assessment,
-                        arguments = listOf(navArgument(GyansarRoutes.Args.QuizId) { type = NavType.LongType })
+                        route = GyansarRoutes.ASSESSMENT,
+                        arguments = listOf(navArgument(GyansarRoutes.Args.QUIZ_ID) { type = NavType.LongType })
                     ) { backStackEntry ->
-                        val quizId = backStackEntry.arguments?.getLong(GyansarRoutes.Args.QuizId) ?: return@composable
+                        val quizId = backStackEntry.arguments?.getLong(GyansarRoutes.Args.QUIZ_ID) ?: return@composable
                         val viewModel: GyansarAssessmentViewModel = koinViewModel()
                         LaunchedEffect(quizId) {
                             viewModel.setQuizId(quizId)
@@ -111,26 +112,26 @@ fun App() {
                         )
                     }
                     composable(
-                        route = GyansarRoutes.Results,
-                        arguments = listOf(navArgument(GyansarRoutes.Args.QuizId) { type = NavType.LongType })
+                        route = GyansarRoutes.RESULTS,
+                        arguments = listOf(navArgument(GyansarRoutes.Args.QUIZ_ID) { type = NavType.LongType })
                     ) {
                         PerformanceAnalyticsScreen(
                             state = labels.performanceAnalytics,
-                            onBack = { navController.popBackStack(GyansarRoutes.StudentDashboard, false) }
+                            onBack = { navController.popBackStack(GyansarRoutes.STUDENT_DASHBOARD, false) }
                         )
                     }
-                    composable(GyansarRoutes.TutorDashboard) {
+                    composable(GyansarRoutes.TUTOR_DASHBOARD) {
                         val viewModel: GyansarTutorDashboardViewModel = koinViewModel()
                         val state by viewModel.state.collectAsStateWithLifecycle()
                         TutorDashboardScreen(
                             state = state,
-                            onCreateQuiz = { navController.navigate(GyansarRoutes.CreateQuiz) },
+                            onCreateQuiz = { navController.navigate(GyansarRoutes.CREATE_QUIZ) },
                             onQuizSelected = { quizId ->
                                 navController.navigate(GyansarRoutes.quizReviewRoute(quizId))
                             }
                         )
                     }
-                    composable(GyansarRoutes.CreateQuiz) {
+                    composable(GyansarRoutes.CREATE_QUIZ) {
                         val editorViewModel: GyansarQuizEditorViewModel = koinViewModel()
                         CreateQuizScreen(
                             onBack = { navController.popBackStack() },
@@ -143,10 +144,10 @@ fun App() {
                         )
                     }
                     composable(
-                        route = GyansarRoutes.QuizReview,
-                        arguments = listOf(navArgument(GyansarRoutes.Args.QuizId) { type = NavType.LongType })
+                        route = GyansarRoutes.QUIZ_REVIEW,
+                        arguments = listOf(navArgument(GyansarRoutes.Args.QUIZ_ID) { type = NavType.LongType })
                     ) { backStackEntry ->
-                        val quizId = backStackEntry.arguments?.getLong(GyansarRoutes.Args.QuizId) ?: return@composable
+                        val quizId = backStackEntry.arguments?.getLong(GyansarRoutes.Args.QUIZ_ID) ?: return@composable
                         val viewModel: GyansarQuizDetailViewModel = koinViewModel()
                         LaunchedEffect(quizId) {
                             viewModel.setQuizId(quizId)
@@ -183,10 +184,10 @@ fun App() {
                         )
                     }
                     composable(
-                        route = GyansarRoutes.AddQuestion,
-                        arguments = listOf(navArgument(GyansarRoutes.Args.QuizId) { type = NavType.LongType })
+                        route = GyansarRoutes.ADD_QUESTION,
+                        arguments = listOf(navArgument(GyansarRoutes.Args.QUIZ_ID) { type = NavType.LongType })
                     ) { backStackEntry ->
-                        val quizId = backStackEntry.arguments?.getLong(GyansarRoutes.Args.QuizId) ?: return@composable
+                        val quizId = backStackEntry.arguments?.getLong(GyansarRoutes.Args.QUIZ_ID) ?: return@composable
                         val editorViewModel: GyansarQuizEditorViewModel = koinViewModel()
                         AddQuestionScreen(
                             onBack = { navController.popBackStack() },
@@ -199,8 +200,8 @@ fun App() {
                         )
                     }
                     composable(
-                        route = GyansarRoutes.QuizAnalytics,
-                        arguments = listOf(navArgument(GyansarRoutes.Args.QuizId) { type = NavType.LongType })
+                        route = GyansarRoutes.QUIZ_ANALYTICS,
+                        arguments = listOf(navArgument(GyansarRoutes.Args.QUIZ_ID) { type = NavType.LongType })
                     ) {
                         val analyticsState = QuizAnalyticsState(
                             title = "Quiz Analytics",
@@ -215,35 +216,11 @@ fun App() {
                         )
                         QuizAnalyticsScreen(
                             state = analyticsState,
-                            onBack = { navController.popBackStack(GyansarRoutes.TutorDashboard, false) }
+                            onBack = { navController.popBackStack(GyansarRoutes.TUTOR_DASHBOARD, false) }
                         )
                     }
                 }
             }
         }
     }
-}
-
-private object GyansarRoutes {
-    const val Login = "login"
-    const val ProfileSelection = "profile"
-    const val StudentDashboard = "student/dashboard"
-    const val CreateTest = "student/create-test"
-    const val Assessment = "student/assessment/{quizId}"
-    const val Results = "student/results/{quizId}"
-    const val TutorDashboard = "tutor/dashboard"
-    const val CreateQuiz = "tutor/create-quiz"
-    const val QuizReview = "tutor/quiz/{quizId}"
-    const val AddQuestion = "tutor/quiz/{quizId}/add-question"
-    const val QuizAnalytics = "tutor/quiz/{quizId}/analytics"
-
-    object Args {
-        const val QuizId = "quizId"
-    }
-
-    fun assessmentRoute(quizId: Long) = "student/assessment/$quizId"
-    fun resultsRoute(quizId: Long) = "student/results/$quizId"
-    fun quizReviewRoute(quizId: Long) = "tutor/quiz/$quizId"
-    fun addQuestionRoute(quizId: Long) = "tutor/quiz/$quizId/add-question"
-    fun quizAnalyticsRoute(quizId: Long) = "tutor/quiz/$quizId/analytics"
 }
